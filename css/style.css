@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&family=Spline+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #41486d;
+}
+li, a, button{
+    font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+color: white;
+text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: brown;
+}
+.logo{
+    width: 200px;
+    cursor: :pointer;
+    
+}
+.nav-links{
+    list-style: none;
+}
+.nav-links li {
+    display: inline-block;
+    padding: 5px 20px;
+}
+.nav-links li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease 0s;
+}
+.nav-links li a :hover{
+    color: #0088a9;
+}
+button{
+    padding: 9px 25px;
+    background-color: transparent;
+    border: none;
+
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+button:hover{
+    background-color: black;
+}
